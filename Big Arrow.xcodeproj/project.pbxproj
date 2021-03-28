@@ -1,0 +1,1438 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A9005D251FA4B35200F1571A /* Crosshair.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9005D241FA4B35200F1571A /* Crosshair.swift */; };
+		A90DC13B1FC08B74005F8A99 /* Constants+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A90DC13A1FC08B73005F8A99 /* Constants+Extensions.swift */; };
+		A90DC13C1FC08B74005F8A99 /* Constants+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A90DC13A1FC08B73005F8A99 /* Constants+Extensions.swift */; };
+		A9187EE21EF46C530049A8AD /* NewDestinationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9187EE11EF46C530049A8AD /* NewDestinationController.swift */; };
+		A91C17CC1FC426F5007AF8AD /* Triple Ding Medium.aiff in Resources */ = {isa = PBXBuildFile; fileRef = A91C17CB1FC426F5007AF8AD /* Triple Ding Medium.aiff */; };
+		A91C320820C9D98200DA891D /* Destination+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A91C320720C9D98200DA891D /* Destination+Extensions.swift */; };
+		A91C320920C9D98200DA891D /* Destination+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A91C320720C9D98200DA891D /* Destination+Extensions.swift */; };
+		A928966A1FC61FD100B0C757 /* FuzzyDistance.swift in Sources */ = {isa = PBXBuildFile; fileRef = A92896691FC61FD100B0C757 /* FuzzyDistance.swift */; };
+		A928966B1FC61FD100B0C757 /* FuzzyDistance.swift in Sources */ = {isa = PBXBuildFile; fileRef = A92896691FC61FD100B0C757 /* FuzzyDistance.swift */; };
+		A928D41F20CE8CE7009F9B7D /* Big_ArrowUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A928D41E20CE8CE7009F9B7D /* Big_ArrowUITests.swift */; };
+		A934EFB01FC31B7C005C51EF /* SpriteKit-Spring.swift in Sources */ = {isa = PBXBuildFile; fileRef = A934EFAF1FC31B7B005C51EF /* SpriteKit-Spring.swift */; };
+		A934EFB11FC31B81005C51EF /* SpriteKit-Spring.swift in Sources */ = {isa = PBXBuildFile; fileRef = A934EFAF1FC31B7B005C51EF /* SpriteKit-Spring.swift */; };
+		A93964EA1EF6ADD300D73B11 /* Formatters.swift in Sources */ = {isa = PBXBuildFile; fileRef = A93964E91EF6ADD300D73B11 /* Formatters.swift */; };
+		A93964EB1EF6ADD300D73B11 /* Formatters.swift in Sources */ = {isa = PBXBuildFile; fileRef = A93964E91EF6ADD300D73B11 /* Formatters.swift */; };
+		A93C560020C9CA7F0043B6DA /* FontAwesome.otf in Resources */ = {isa = PBXBuildFile; fileRef = A93C55FF20C9CA7F0043B6DA /* FontAwesome.otf */; };
+		A93C560220C9CBB00043B6DA /* LocationTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A93C560120C9CBB00043B6DA /* LocationTableCell.swift */; };
+		A93FF4931EF6E6E600993798 /* RootController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A93FF4921EF6E6E600993798 /* RootController.swift */; };
+		A93FF4951EF6E7F100993798 /* DestinationRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = A93FF4941EF6E7F100993798 /* DestinationRow.swift */; };
+		A94277771EF59BFA00250201 /* ArrowScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = A94277761EF59BFA00250201 /* ArrowScene.sks */; };
+		A942779D1EF5B60A00250201 /* ArrowScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = A942779C1EF5B60A00250201 /* ArrowScene.swift */; };
+		A942779E1EF5B60A00250201 /* ArrowScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = A942779C1EF5B60A00250201 /* ArrowScene.swift */; };
+		A94277A31EF5BBCD00250201 /* Scene.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A94277A21EF5BBCD00250201 /* Scene.xcassets */; };
+		A94310A71FCA37E000FA2D5D /* Operation.swift in Sources */ = {isa = PBXBuildFile; fileRef = A94310A61FCA37DF00FA2D5D /* Operation.swift */; };
+		A94310A81FCA37E000FA2D5D /* Operation.swift in Sources */ = {isa = PBXBuildFile; fileRef = A94310A61FCA37DF00FA2D5D /* Operation.swift */; };
+		A94310AD1FCA395000FA2D5D /* CentralAnimationOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = A94310AC1FCA395000FA2D5D /* CentralAnimationOperation.swift */; };
+		A94310AE1FCA395000FA2D5D /* CentralAnimationOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = A94310AC1FCA395000FA2D5D /* CentralAnimationOperation.swift */; };
+		A94DDFF7205EA9B300113A63 /* LocationBuffer.swift in Sources */ = {isa = PBXBuildFile; fileRef = A94DDFF6205EA9B300113A63 /* LocationBuffer.swift */; };
+		A94DDFF8205EA9B300113A63 /* LocationBuffer.swift in Sources */ = {isa = PBXBuildFile; fileRef = A94DDFF6205EA9B300113A63 /* LocationBuffer.swift */; };
+		A955877F2002B29A00C9081F /* SettingsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A955877E2002B29A00C9081F /* SettingsTableViewController.swift */; };
+		A95C0DAE1EF32D6500835F6E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A97D459F1EF3088C00DA1C1C /* Assets.xcassets */; };
+		A95C0DB01EF32EB600835F6E /* LocationMaster.swift in Sources */ = {isa = PBXBuildFile; fileRef = A95C0DAF1EF32EB600835F6E /* LocationMaster.swift */; };
+		A95C0DB11EF32EB600835F6E /* LocationMaster.swift in Sources */ = {isa = PBXBuildFile; fileRef = A95C0DAF1EF32EB600835F6E /* LocationMaster.swift */; };
+		A95C0DB31EF32EBE00835F6E /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = A95C0DB21EF32EBE00835F6E /* Constants.swift */; };
+		A95C0DB41EF32EBE00835F6E /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = A95C0DB21EF32EBE00835F6E /* Constants.swift */; };
+		A95C0DB61EF330F200835F6E /* LocationMaster Errors.swift in Sources */ = {isa = PBXBuildFile; fileRef = A95C0DB51EF330F200835F6E /* LocationMaster Errors.swift */; };
+		A95C0DB71EF330F200835F6E /* LocationMaster Errors.swift in Sources */ = {isa = PBXBuildFile; fileRef = A95C0DB51EF330F200835F6E /* LocationMaster Errors.swift */; };
+		A95C0DB91EF3362700835F6E /* CLLocation Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A95C0DB81EF3362700835F6E /* CLLocation Extensions.swift */; };
+		A95C0DBA1EF3362700835F6E /* CLLocation Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A95C0DB81EF3362700835F6E /* CLLocation Extensions.swift */; };
+		A95C0DBC1EF3374200835F6E /* Floating Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A95C0DBB1EF3374200835F6E /* Floating Extensions.swift */; };
+		A95C0DBD1EF3374200835F6E /* Floating Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A95C0DBB1EF3374200835F6E /* Floating Extensions.swift */; };
+		A96152121EFCF6AB0005752D /* ShareViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A96152111EFCF6AB0005752D /* ShareViewController.swift */; };
+		A96152151EFCF6AB0005752D /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A96152131EFCF6AB0005752D /* MainInterface.storyboard */; };
+		A96152191EFCF6AB0005752D /* MapsAction.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = A961520F1EFCF6AB0005752D /* MapsAction.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		A96244971FDEA2F10055C6B9 /* formulas.swift in Sources */ = {isa = PBXBuildFile; fileRef = A96244961FDEA2F10055C6B9 /* formulas.swift */; };
+		A96244981FDEA2F10055C6B9 /* formulas.swift in Sources */ = {isa = PBXBuildFile; fileRef = A96244961FDEA2F10055C6B9 /* formulas.swift */; };
+		A96860ED1FA9D1E7007AE5F9 /* DeviceOrientation.swift in Sources */ = {isa = PBXBuildFile; fileRef = A96860EC1FA9D1E7007AE5F9 /* DeviceOrientation.swift */; };
+		A96860EF1FA9D77E007AE5F9 /* UINavigationController+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A96860EE1FA9D77E007AE5F9 /* UINavigationController+Extensions.swift */; };
+		A96F3D621EFC634200437ED2 /* MyLocationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A96F3D611EFC634200437ED2 /* MyLocationController.swift */; };
+		A96FD23A2003E3A1007440D4 /* SubSettingsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A96FD2392003E3A1007440D4 /* SubSettingsTableViewController.swift */; };
+		A9753DA31F850ACB00B673F8 /* Indication.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9753DA21F850ACB00B673F8 /* Indication.swift */; };
+		A9753DA41F850AD200B673F8 /* Indication.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9753DA21F850ACB00B673F8 /* Indication.swift */; };
+		A97B754921B06924006F32BC /* Compass.pdf in Resources */ = {isa = PBXBuildFile; fileRef = A9E8FC7E21B0617B003D18B0 /* Compass.pdf */; };
+		A97D45851EF3081900DA1C1C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A97D45841EF3081900DA1C1C /* AppDelegate.swift */; };
+		A97D45871EF3081900DA1C1C /* MasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A97D45861EF3081900DA1C1C /* MasterViewController.swift */; };
+		A97D45891EF3081900DA1C1C /* ArrowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A97D45881EF3081900DA1C1C /* ArrowController.swift */; };
+		A97D458C1EF3081900DA1C1C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A97D458A1EF3081900DA1C1C /* Main.storyboard */; };
+		A97D458E1EF3081900DA1C1C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A97D458D1EF3081900DA1C1C /* Assets.xcassets */; };
+		A97D45911EF3081900DA1C1C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A97D458F1EF3081900DA1C1C /* LaunchScreen.storyboard */; };
+		A97D459E1EF3088C00DA1C1C /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A97D459C1EF3088C00DA1C1C /* Interface.storyboard */; };
+		A97D45A71EF3088C00DA1C1C /* Big Arrow WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = A97D45A61EF3088C00DA1C1C /* Big Arrow WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		A97D45AC1EF3088C00DA1C1C /* WatchArrowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A97D45AB1EF3088C00DA1C1C /* WatchArrowController.swift */; };
+		A97D45AE1EF3088C00DA1C1C /* ArrowScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = A97D45AD1EF3088C00DA1C1C /* ArrowScene.sks */; };
+		A97D45B21EF3088C00DA1C1C /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A97D45B11EF3088C00DA1C1C /* ExtensionDelegate.swift */; };
+		A97D45B41EF3088C00DA1C1C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A97D45B31EF3088C00DA1C1C /* Assets.xcassets */; };
+		A97D45B81EF3088C00DA1C1C /* Big Arrow WatchKit.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = A97D459A1EF3088C00DA1C1C /* Big Arrow WatchKit.app */; };
+		A9865AD31EF54926008B84F4 /* Destination.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9865AD21EF54926008B84F4 /* Destination.swift */; };
+		A9865AD41EF54926008B84F4 /* Destination.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9865AD21EF54926008B84F4 /* Destination.swift */; };
+		A987546D1FC7706200FA12E2 /* RunningBuffer.swift in Sources */ = {isa = PBXBuildFile; fileRef = A987546C1FC7706200FA12E2 /* RunningBuffer.swift */; };
+		A987546E1FC7706200FA12E2 /* RunningBuffer.swift in Sources */ = {isa = PBXBuildFile; fileRef = A987546C1FC7706200FA12E2 /* RunningBuffer.swift */; };
+		A993420C23AFACFD00C8FD77 /* DeviceOrientation.swift in Sources */ = {isa = PBXBuildFile; fileRef = A96860EC1FA9D1E7007AE5F9 /* DeviceOrientation.swift */; };
+		A9A6F7EB226C991A00AEBBDD /* String Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9F842761EFD6F6200C323BD /* String Extensions.swift */; };
+		A9A6F7EC226C992100AEBBDD /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = A9AF86EE226BBA5E003D2E60 /* Localizable.strings */; };
+		A9ADA80B1FC1EC3500F07826 /* NotificationHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9ADA80A1FC1EC3500F07826 /* NotificationHelper.swift */; };
+		A9ADA80C1FC1EC3500F07826 /* NotificationHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9ADA80A1FC1EC3500F07826 /* NotificationHelper.swift */; };
+		A9AF86EB226BBA5E003D2E60 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = A9AF86EE226BBA5E003D2E60 /* Localizable.strings */; };
+		A9AF86EC226BBA5E003D2E60 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = A9AF86EE226BBA5E003D2E60 /* Localizable.strings */; };
+		A9C5F9D71F23521C003E36E4 /* HelpState.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9C5F9D61F23521C003E36E4 /* HelpState.swift */; };
+		A9CC56331FCDFC09001D6EC6 /* Single Ding.aiff in Resources */ = {isa = PBXBuildFile; fileRef = A9CC56321FCDFC09001D6EC6 /* Single Ding.aiff */; };
+		A9CC56351FCDFC27001D6EC6 /* Options.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9CC56341FCDFC27001D6EC6 /* Options.swift */; };
+		A9D638211FCB4C77004FB18C /* Arrow Protocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9D638201FCB4C77004FB18C /* Arrow Protocols.swift */; };
+		A9D638221FCB4C77004FB18C /* Arrow Protocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9D638201FCB4C77004FB18C /* Arrow Protocols.swift */; };
+		A9DD7DD01F06AA960072D530 /* SessionKeys.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9DD7DCF1F06AA960072D530 /* SessionKeys.swift */; };
+		A9DD7DD11F06AA960072D530 /* SessionKeys.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9DD7DCF1F06AA960072D530 /* SessionKeys.swift */; };
+		A9DD7DD21F07A91F0072D530 /* Destination.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9865AD21EF54926008B84F4 /* Destination.swift */; };
+		A9DD7DD31F07AA250072D530 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = A95C0DB21EF32EBE00835F6E /* Constants.swift */; };
+		A9E0A05924E9779900F62878 /* Storyboards.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9E0A05824E9779900F62878 /* Storyboards.swift */; };
+		A9E8FC7521B05EAD003D18B0 /* Big_ArrowTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9E8FC7421B05EAD003D18B0 /* Big_ArrowTests.swift */; };
+		A9F842741EFD6A5A00C323BD /* DestinationMaster.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9F842731EFD6A5A00C323BD /* DestinationMaster.swift */; };
+		A9F842751EFD6A5A00C323BD /* DestinationMaster.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9F842731EFD6A5A00C323BD /* DestinationMaster.swift */; };
+		A9F842771EFD6F6200C323BD /* String Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9F842761EFD6F6200C323BD /* String Extensions.swift */; };
+		A9F842781EFD6F6200C323BD /* String Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9F842761EFD6F6200C323BD /* String Extensions.swift */; };
+		A9FD4EC91F9F72A6003DA78D /* FuzzyAccuracy.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9FD4EC81F9F72A6003DA78D /* FuzzyAccuracy.swift */; };
+		A9FD4ECA1F9F72A6003DA78D /* FuzzyAccuracy.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9FD4EC81F9F72A6003DA78D /* FuzzyAccuracy.swift */; };
+		A9FF34C7226B4FCD0023CAEC /* Options.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9CC56341FCDFC27001D6EC6 /* Options.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A928D42120CE8CE7009F9B7D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A97D45791EF3081800DA1C1C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A97D45801EF3081800DA1C1C;
+			remoteInfo = "Big Arrow";
+		};
+		A96152171EFCF6AB0005752D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A97D45791EF3081800DA1C1C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A961520E1EFCF6AB0005752D;
+			remoteInfo = MapsAction;
+		};
+		A97D45A81EF3088C00DA1C1C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A97D45791EF3081800DA1C1C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A97D45A51EF3088C00DA1C1C;
+			remoteInfo = "Big Arrow WatchKit Extension";
+		};
+		A97D45B61EF3088C00DA1C1C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A97D45791EF3081800DA1C1C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A97D45991EF3088C00DA1C1C;
+			remoteInfo = "Big Arrow WatchKit";
+		};
+		A9E8FC7721B05EAD003D18B0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A97D45791EF3081800DA1C1C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A97D45801EF3081800DA1C1C;
+			remoteInfo = "Big Arrow";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		A961521D1EFCF6AB0005752D /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				A96152191EFCF6AB0005752D /* MapsAction.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A97D45BE1EF3088C00DA1C1C /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				A97D45A71EF3088C00DA1C1C /* Big Arrow WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A97D45C01EF3088C00DA1C1C /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				A97D45B81EF3088C00DA1C1C /* Big Arrow WatchKit.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		A9005D241FA4B35200F1571A /* Crosshair.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Crosshair.swift; sourceTree = "<group>"; };
+		A90D04E6226BB1A000EDF9C5 /* it */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = it; path = it.lproj/Main.strings; sourceTree = "<group>"; };
+		A90D04E7226BB1A000EDF9C5 /* it */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = it; path = it.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		A90D04E8226BB1A100EDF9C5 /* it */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = it; path = it.lproj/Interface.strings; sourceTree = "<group>"; };
+		A90D04E9226BB1A100EDF9C5 /* it */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = it; path = it.lproj/MainInterface.strings; sourceTree = "<group>"; };
+		A90DC13A1FC08B73005F8A99 /* Constants+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Constants+Extensions.swift"; sourceTree = "<group>"; };
+		A9187EE11EF46C530049A8AD /* NewDestinationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewDestinationController.swift; sourceTree = "<group>"; };
+		A91C17CB1FC426F5007AF8AD /* Triple Ding Medium.aiff */ = {isa = PBXFileReference; lastKnownFileType = audio.aiff; path = "Triple Ding Medium.aiff"; sourceTree = "<group>"; };
+		A91C320720C9D98200DA891D /* Destination+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Destination+Extensions.swift"; sourceTree = "<group>"; };
+		A92896691FC61FD100B0C757 /* FuzzyDistance.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FuzzyDistance.swift; sourceTree = "<group>"; };
+		A928D41C20CE8CE7009F9B7D /* Big ArrowUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Big ArrowUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A928D41E20CE8CE7009F9B7D /* Big_ArrowUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Big_ArrowUITests.swift; sourceTree = "<group>"; };
+		A928D42020CE8CE7009F9B7D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A929D130233656A600A4E3D4 /* Cologne.gpx */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = Cologne.gpx; sourceTree = "<group>"; };
+		A929D131233656A600A4E3D4 /* Legnano.gpx */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = Legnano.gpx; sourceTree = "<group>"; };
+		A929D132233656A600A4E3D4 /* Cupertino.gpx */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = Cupertino.gpx; sourceTree = "<group>"; };
+		A929D133233656A600A4E3D4 /* Benidorm.gpx */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = Benidorm.gpx; sourceTree = "<group>"; };
+		A934EFAC1FC3166C005C51EF /* Triple Ding.aiff */ = {isa = PBXFileReference; lastKnownFileType = audio.aiff; path = "Triple Ding.aiff"; sourceTree = "<group>"; };
+		A934EFAF1FC31B7B005C51EF /* SpriteKit-Spring.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SpriteKit-Spring.swift"; sourceTree = "<group>"; };
+		A93964E91EF6ADD300D73B11 /* Formatters.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Formatters.swift; sourceTree = "<group>"; };
+		A93C55FF20C9CA7F0043B6DA /* FontAwesome.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = FontAwesome.otf; sourceTree = "<group>"; };
+		A93C560120C9CBB00043B6DA /* LocationTableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationTableCell.swift; sourceTree = "<group>"; };
+		A93FF4921EF6E6E600993798 /* RootController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RootController.swift; sourceTree = "<group>"; };
+		A93FF4941EF6E7F100993798 /* DestinationRow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DestinationRow.swift; sourceTree = "<group>"; };
+		A94277761EF59BFA00250201 /* ArrowScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = ArrowScene.sks; sourceTree = "<group>"; };
+		A942779C1EF5B60A00250201 /* ArrowScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArrowScene.swift; sourceTree = "<group>"; };
+		A94277A21EF5BBCD00250201 /* Scene.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Scene.xcassets; sourceTree = "<group>"; };
+		A94310A61FCA37DF00FA2D5D /* Operation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Operation.swift; sourceTree = "<group>"; };
+		A94310A91FCA382600FA2D5D /* EmptyOperation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmptyOperation.swift; sourceTree = "<group>"; };
+		A94310AC1FCA395000FA2D5D /* CentralAnimationOperation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CentralAnimationOperation.swift; sourceTree = "<group>"; };
+		A94DDFF6205EA9B300113A63 /* LocationBuffer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationBuffer.swift; sourceTree = "<group>"; };
+		A955877E2002B29A00C9081F /* SettingsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsTableViewController.swift; sourceTree = "<group>"; };
+		A95C0DAF1EF32EB600835F6E /* LocationMaster.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationMaster.swift; sourceTree = "<group>"; };
+		A95C0DB21EF32EBE00835F6E /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		A95C0DB51EF330F200835F6E /* LocationMaster Errors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "LocationMaster Errors.swift"; sourceTree = "<group>"; };
+		A95C0DB81EF3362700835F6E /* CLLocation Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CLLocation Extensions.swift"; sourceTree = "<group>"; };
+		A95C0DBB1EF3374200835F6E /* Floating Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Floating Extensions.swift"; sourceTree = "<group>"; };
+		A961520F1EFCF6AB0005752D /* MapsAction.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = MapsAction.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		A96152111EFCF6AB0005752D /* ShareViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShareViewController.swift; sourceTree = "<group>"; };
+		A96152141EFCF6AB0005752D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainInterface.storyboard; sourceTree = "<group>"; };
+		A96152161EFCF6AB0005752D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A96244961FDEA2F10055C6B9 /* formulas.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = formulas.swift; sourceTree = "<group>"; };
+		A96860EC1FA9D1E7007AE5F9 /* DeviceOrientation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceOrientation.swift; sourceTree = "<group>"; };
+		A96860EE1FA9D77E007AE5F9 /* UINavigationController+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UINavigationController+Extensions.swift"; sourceTree = "<group>"; };
+		A96F3D611EFC634200437ED2 /* MyLocationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyLocationController.swift; sourceTree = "<group>"; };
+		A96FD2392003E3A1007440D4 /* SubSettingsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubSettingsTableViewController.swift; sourceTree = "<group>"; };
+		A9753DA21F850ACB00B673F8 /* Indication.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Indication.swift; sourceTree = "<group>"; };
+		A97D45811EF3081900DA1C1C /* Big Arrow.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Big Arrow.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A97D45841EF3081900DA1C1C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A97D45861EF3081900DA1C1C /* MasterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterViewController.swift; sourceTree = "<group>"; };
+		A97D45881EF3081900DA1C1C /* ArrowController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArrowController.swift; sourceTree = "<group>"; };
+		A97D458B1EF3081900DA1C1C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A97D458D1EF3081900DA1C1C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A97D45901EF3081900DA1C1C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A97D45921EF3081900DA1C1C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A97D459A1EF3088C00DA1C1C /* Big Arrow WatchKit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Big Arrow WatchKit.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A97D459D1EF3088C00DA1C1C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		A97D459F1EF3088C00DA1C1C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A97D45A11EF3088C00DA1C1C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A97D45A61EF3088C00DA1C1C /* Big Arrow WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Big Arrow WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A97D45AB1EF3088C00DA1C1C /* WatchArrowController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchArrowController.swift; sourceTree = "<group>"; };
+		A97D45AD1EF3088C00DA1C1C /* ArrowScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = ArrowScene.sks; sourceTree = "<group>"; };
+		A97D45B11EF3088C00DA1C1C /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
+		A97D45B31EF3088C00DA1C1C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A97D45B51EF3088C00DA1C1C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A9865AD21EF54926008B84F4 /* Destination.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Destination.swift; sourceTree = "<group>"; };
+		A987546C1FC7706200FA12E2 /* RunningBuffer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RunningBuffer.swift; sourceTree = "<group>"; };
+		A9ADA80A1FC1EC3500F07826 /* NotificationHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationHelper.swift; sourceTree = "<group>"; };
+		A9AF86ED226BBA5E003D2E60 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		A9AF86EF226BBA5F003D2E60 /* it */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = it; path = it.lproj/Localizable.strings; sourceTree = "<group>"; };
+		A9C5F9D61F23521C003E36E4 /* HelpState.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HelpState.swift; sourceTree = "<group>"; };
+		A9CC56321FCDFC09001D6EC6 /* Single Ding.aiff */ = {isa = PBXFileReference; lastKnownFileType = audio.aiff; path = "Single Ding.aiff"; sourceTree = "<group>"; };
+		A9CC56341FCDFC27001D6EC6 /* Options.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Options.swift; sourceTree = "<group>"; };
+		A9D1521C26108BF4006AA255 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		A9D638201FCB4C77004FB18C /* Arrow Protocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Arrow Protocols.swift"; sourceTree = "<group>"; };
+		A9D77C151EFD3DEA00991461 /* Big Arrow.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Big Arrow.entitlements"; sourceTree = "<group>"; };
+		A9D77C161EFD3DFD00991461 /* MapsAction.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MapsAction.entitlements; sourceTree = "<group>"; };
+		A9DD7DCF1F06AA960072D530 /* SessionKeys.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SessionKeys.swift; sourceTree = "<group>"; };
+		A9E0A05824E9779900F62878 /* Storyboards.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Storyboards.swift; sourceTree = "<group>"; };
+		A9E8FC7221B05EAD003D18B0 /* Big ArrowTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Big ArrowTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A9E8FC7421B05EAD003D18B0 /* Big_ArrowTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Big_ArrowTests.swift; sourceTree = "<group>"; };
+		A9E8FC7621B05EAD003D18B0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A9E8FC7E21B0617B003D18B0 /* Compass.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = Compass.pdf; sourceTree = "<group>"; };
+		A9F842731EFD6A5A00C323BD /* DestinationMaster.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DestinationMaster.swift; sourceTree = "<group>"; };
+		A9F842761EFD6F6200C323BD /* String Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String Extensions.swift"; sourceTree = "<group>"; };
+		A9FD4EC81F9F72A6003DA78D /* FuzzyAccuracy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FuzzyAccuracy.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A928D41920CE8CE7009F9B7D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A961520C1EFCF6AB0005752D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A97D457E1EF3081800DA1C1C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A97D45A31EF3088C00DA1C1C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A9E8FC6F21B05EAD003D18B0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A91C17CA1FC426D7007AF8AD /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				A934EFAC1FC3166C005C51EF /* Triple Ding.aiff */,
+				A91C17CB1FC426F5007AF8AD /* Triple Ding Medium.aiff */,
+				A9CC56321FCDFC09001D6EC6 /* Single Ding.aiff */,
+			);
+			path = Sounds;
+			sourceTree = "<group>";
+		};
+		A928D41D20CE8CE7009F9B7D /* Big ArrowUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A928D41E20CE8CE7009F9B7D /* Big_ArrowUITests.swift */,
+				A928D42020CE8CE7009F9B7D /* Info.plist */,
+			);
+			path = "Big ArrowUITests";
+			sourceTree = "<group>";
+		};
+		A929D12F2336567C00A4E3D4 /* Locations */ = {
+			isa = PBXGroup;
+			children = (
+				A929D133233656A600A4E3D4 /* Benidorm.gpx */,
+				A929D130233656A600A4E3D4 /* Cologne.gpx */,
+				A929D132233656A600A4E3D4 /* Cupertino.gpx */,
+				A929D131233656A600A4E3D4 /* Legnano.gpx */,
+			);
+			path = Locations;
+			sourceTree = "<group>";
+		};
+		A93C55FE20C9CA660043B6DA /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				A93C55FF20C9CA7F0043B6DA /* FontAwesome.otf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		A95C0DAC1EF324E200835F6E /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				A95C0DAF1EF32EB600835F6E /* LocationMaster.swift */,
+				A9ADA80A1FC1EC3500F07826 /* NotificationHelper.swift */,
+				A9FD4EC81F9F72A6003DA78D /* FuzzyAccuracy.swift */,
+				A92896691FC61FD100B0C757 /* FuzzyDistance.swift */,
+				A95C0DB21EF32EBE00835F6E /* Constants.swift */,
+				A90DC13A1FC08B73005F8A99 /* Constants+Extensions.swift */,
+				A9DD7DCF1F06AA960072D530 /* SessionKeys.swift */,
+				A95C0DB51EF330F200835F6E /* LocationMaster Errors.swift */,
+				A95C0DB81EF3362700835F6E /* CLLocation Extensions.swift */,
+				A95C0DBB1EF3374200835F6E /* Floating Extensions.swift */,
+				A9753DA21F850ACB00B673F8 /* Indication.swift */,
+				A9865AD21EF54926008B84F4 /* Destination.swift */,
+				A91C320720C9D98200DA891D /* Destination+Extensions.swift */,
+				A987546C1FC7706200FA12E2 /* RunningBuffer.swift */,
+				A94DDFF6205EA9B300113A63 /* LocationBuffer.swift */,
+				A942779C1EF5B60A00250201 /* ArrowScene.swift */,
+				A934EFAF1FC31B7B005C51EF /* SpriteKit-Spring.swift */,
+				A93964E91EF6ADD300D73B11 /* Formatters.swift */,
+				A9F842731EFD6A5A00C323BD /* DestinationMaster.swift */,
+				A9F842761EFD6F6200C323BD /* String Extensions.swift */,
+				A94310A61FCA37DF00FA2D5D /* Operation.swift */,
+				A94310AC1FCA395000FA2D5D /* CentralAnimationOperation.swift */,
+				A94310A91FCA382600FA2D5D /* EmptyOperation.swift */,
+				A9D638201FCB4C77004FB18C /* Arrow Protocols.swift */,
+				A96244961FDEA2F10055C6B9 /* formulas.swift */,
+				A9CC56341FCDFC27001D6EC6 /* Options.swift */,
+				A9AF86EE226BBA5E003D2E60 /* Localizable.strings */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		A96152101EFCF6AB0005752D /* MapsAction */ = {
+			isa = PBXGroup;
+			children = (
+				A9D77C161EFD3DFD00991461 /* MapsAction.entitlements */,
+				A96152111EFCF6AB0005752D /* ShareViewController.swift */,
+				A96152131EFCF6AB0005752D /* MainInterface.storyboard */,
+				A96152161EFCF6AB0005752D /* Info.plist */,
+			);
+			path = MapsAction;
+			sourceTree = "<group>";
+		};
+		A961521E1EFCF8F50005752D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A97D45781EF3081800DA1C1C = {
+			isa = PBXGroup;
+			children = (
+				A9D1521C26108BF4006AA255 /* README.md */,
+				A929D12F2336567C00A4E3D4 /* Locations */,
+				A91C17CA1FC426D7007AF8AD /* Sounds */,
+				A95C0DAC1EF324E200835F6E /* Shared */,
+				A97D45831EF3081900DA1C1C /* Big Arrow */,
+				A97D459B1EF3088C00DA1C1C /* Big Arrow WatchKit */,
+				A97D45AA1EF3088C00DA1C1C /* Big Arrow WatchKit Extension */,
+				A96152101EFCF6AB0005752D /* MapsAction */,
+				A928D41D20CE8CE7009F9B7D /* Big ArrowUITests */,
+				A9E8FC7321B05EAD003D18B0 /* Big ArrowTests */,
+				A97D45821EF3081900DA1C1C /* Products */,
+				A961521E1EFCF8F50005752D /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		A97D45821EF3081900DA1C1C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A97D45811EF3081900DA1C1C /* Big Arrow.app */,
+				A97D459A1EF3088C00DA1C1C /* Big Arrow WatchKit.app */,
+				A97D45A61EF3088C00DA1C1C /* Big Arrow WatchKit Extension.appex */,
+				A961520F1EFCF6AB0005752D /* MapsAction.appex */,
+				A928D41C20CE8CE7009F9B7D /* Big ArrowUITests.xctest */,
+				A9E8FC7221B05EAD003D18B0 /* Big ArrowTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A97D45831EF3081900DA1C1C /* Big Arrow */ = {
+			isa = PBXGroup;
+			children = (
+				A93C55FE20C9CA660043B6DA /* Fonts */,
+				A9D77C151EFD3DEA00991461 /* Big Arrow.entitlements */,
+				A97D45841EF3081900DA1C1C /* AppDelegate.swift */,
+				A97D45861EF3081900DA1C1C /* MasterViewController.swift */,
+				A93C560120C9CBB00043B6DA /* LocationTableCell.swift */,
+				A97D458A1EF3081900DA1C1C /* Main.storyboard */,
+				A97D458D1EF3081900DA1C1C /* Assets.xcassets */,
+				A97D458F1EF3081900DA1C1C /* LaunchScreen.storyboard */,
+				A97D45921EF3081900DA1C1C /* Info.plist */,
+				A9187EE11EF46C530049A8AD /* NewDestinationController.swift */,
+				A94277761EF59BFA00250201 /* ArrowScene.sks */,
+				A97D45881EF3081900DA1C1C /* ArrowController.swift */,
+				A9C5F9D61F23521C003E36E4 /* HelpState.swift */,
+				A9005D241FA4B35200F1571A /* Crosshair.swift */,
+				A96860EC1FA9D1E7007AE5F9 /* DeviceOrientation.swift */,
+				A96860EE1FA9D77E007AE5F9 /* UINavigationController+Extensions.swift */,
+				A955877E2002B29A00C9081F /* SettingsTableViewController.swift */,
+				A96FD2392003E3A1007440D4 /* SubSettingsTableViewController.swift */,
+				A9E0A05824E9779900F62878 /* Storyboards.swift */,
+			);
+			path = "Big Arrow";
+			sourceTree = "<group>";
+		};
+		A97D459B1EF3088C00DA1C1C /* Big Arrow WatchKit */ = {
+			isa = PBXGroup;
+			children = (
+				A97D459C1EF3088C00DA1C1C /* Interface.storyboard */,
+				A97D459F1EF3088C00DA1C1C /* Assets.xcassets */,
+				A97D45A11EF3088C00DA1C1C /* Info.plist */,
+			);
+			path = "Big Arrow WatchKit";
+			sourceTree = "<group>";
+		};
+		A97D45AA1EF3088C00DA1C1C /* Big Arrow WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				A97D45B11EF3088C00DA1C1C /* ExtensionDelegate.swift */,
+				A97D45AB1EF3088C00DA1C1C /* WatchArrowController.swift */,
+				A96F3D611EFC634200437ED2 /* MyLocationController.swift */,
+				A97D45AD1EF3088C00DA1C1C /* ArrowScene.sks */,
+				A97D45B31EF3088C00DA1C1C /* Assets.xcassets */,
+				A97D45B51EF3088C00DA1C1C /* Info.plist */,
+				A94277A21EF5BBCD00250201 /* Scene.xcassets */,
+				A93FF4921EF6E6E600993798 /* RootController.swift */,
+				A93FF4941EF6E7F100993798 /* DestinationRow.swift */,
+			);
+			path = "Big Arrow WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		A9E8FC7321B05EAD003D18B0 /* Big ArrowTests */ = {
+			isa = PBXGroup;
+			children = (
+				A9E8FC7E21B0617B003D18B0 /* Compass.pdf */,
+				A9E8FC7421B05EAD003D18B0 /* Big_ArrowTests.swift */,
+				A9E8FC7621B05EAD003D18B0 /* Info.plist */,
+			);
+			path = "Big ArrowTests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A928D41B20CE8CE7009F9B7D /* Big ArrowUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A928D42520CE8CE7009F9B7D /* Build configuration list for PBXNativeTarget "Big ArrowUITests" */;
+			buildPhases = (
+				A928D41820CE8CE7009F9B7D /* Sources */,
+				A928D41920CE8CE7009F9B7D /* Frameworks */,
+				A928D41A20CE8CE7009F9B7D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A928D42220CE8CE7009F9B7D /* PBXTargetDependency */,
+			);
+			name = "Big ArrowUITests";
+			productName = "Big ArrowUITests";
+			productReference = A928D41C20CE8CE7009F9B7D /* Big ArrowUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		A961520E1EFCF6AB0005752D /* MapsAction */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A961521A1EFCF6AB0005752D /* Build configuration list for PBXNativeTarget "MapsAction" */;
+			buildPhases = (
+				A9CA9A041EFEA047007BACA3 /* Update Build Number */,
+				A961520B1EFCF6AB0005752D /* Sources */,
+				A961520C1EFCF6AB0005752D /* Frameworks */,
+				A961520D1EFCF6AB0005752D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MapsAction;
+			productName = MapsAction;
+			productReference = A961520F1EFCF6AB0005752D /* MapsAction.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		A97D45801EF3081800DA1C1C /* Big Arrow */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A97D45951EF3081900DA1C1C /* Build configuration list for PBXNativeTarget "Big Arrow" */;
+			buildPhases = (
+				A97D45C11EF308CF00DA1C1C /* Update Build Number */,
+				A97D457D1EF3081800DA1C1C /* Sources */,
+				A97D457E1EF3081800DA1C1C /* Frameworks */,
+				A97D457F1EF3081800DA1C1C /* Resources */,
+				A97D45C01EF3088C00DA1C1C /* Embed Watch Content */,
+				A961521D1EFCF6AB0005752D /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A97D45B71EF3088C00DA1C1C /* PBXTargetDependency */,
+				A96152181EFCF6AB0005752D /* PBXTargetDependency */,
+			);
+			name = "Big Arrow";
+			productName = "Big Arrow";
+			productReference = A97D45811EF3081900DA1C1C /* Big Arrow.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A97D45991EF3088C00DA1C1C /* Big Arrow WatchKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A97D45BF1EF3088C00DA1C1C /* Build configuration list for PBXNativeTarget "Big Arrow WatchKit" */;
+			buildPhases = (
+				A97D45C21EF308F100DA1C1C /* Update Build Number */,
+				A97D45981EF3088C00DA1C1C /* Resources */,
+				A97D45BE1EF3088C00DA1C1C /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A97D45A91EF3088C00DA1C1C /* PBXTargetDependency */,
+			);
+			name = "Big Arrow WatchKit";
+			productName = "Big Arrow WatchKit";
+			productReference = A97D459A1EF3088C00DA1C1C /* Big Arrow WatchKit.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		A97D45A51EF3088C00DA1C1C /* Big Arrow WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A97D45BD1EF3088C00DA1C1C /* Build configuration list for PBXNativeTarget "Big Arrow WatchKit Extension" */;
+			buildPhases = (
+				A97D45C31EF3090000DA1C1C /* Update Build Number */,
+				A97D45A21EF3088C00DA1C1C /* Sources */,
+				A97D45A31EF3088C00DA1C1C /* Frameworks */,
+				A97D45A41EF3088C00DA1C1C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Big Arrow WatchKit Extension";
+			productName = "Big Arrow WatchKit Extension";
+			productReference = A97D45A61EF3088C00DA1C1C /* Big Arrow WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+		A9E8FC7121B05EAD003D18B0 /* Big ArrowTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A9E8FC7B21B05EAD003D18B0 /* Build configuration list for PBXNativeTarget "Big ArrowTests" */;
+			buildPhases = (
+				A9E8FC6E21B05EAD003D18B0 /* Sources */,
+				A9E8FC6F21B05EAD003D18B0 /* Frameworks */,
+				A9E8FC7021B05EAD003D18B0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A9E8FC7821B05EAD003D18B0 /* PBXTargetDependency */,
+			);
+			name = "Big ArrowTests";
+			productName = "Big ArrowTests";
+			productReference = A9E8FC7221B05EAD003D18B0 /* Big ArrowTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A97D45791EF3081800DA1C1C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				DefaultBuildSystemTypeForWorkspace = Latest;
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1240;
+				ORGANIZATIONNAME = "Marco Filetti";
+				TargetAttributes = {
+					A928D41B20CE8CE7009F9B7D = {
+						CreatedOnToolsVersion = 9.4;
+						DevelopmentTeam = XXXXXXXXXX;
+						LastSwiftMigration = 1020;
+						ProvisioningStyle = Automatic;
+						TestTargetID = A97D45801EF3081800DA1C1C;
+					};
+					A961520E1EFCF6AB0005752D = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = XXXXXXXXXX;
+						LastSwiftMigration = 1020;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 1;
+							};
+							com.apple.Maps.iOS = {
+								enabled = 0;
+							};
+						};
+					};
+					A97D45801EF3081800DA1C1C = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = XXXXXXXXXX;
+						LastSwiftMigration = 1020;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 1;
+							};
+						};
+					};
+					A97D45991EF3088C00DA1C1C = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = XXXXXXXXXX;
+						ProvisioningStyle = Automatic;
+					};
+					A97D45A51EF3088C00DA1C1C = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = XXXXXXXXXX;
+						LastSwiftMigration = 1020;
+						ProvisioningStyle = Automatic;
+					};
+					A9E8FC7121B05EAD003D18B0 = {
+						CreatedOnToolsVersion = 10.1;
+						DevelopmentTeam = XXXXXXXXXX;
+						LastSwiftMigration = 1020;
+						ProvisioningStyle = Automatic;
+						TestTargetID = A97D45801EF3081800DA1C1C;
+					};
+				};
+			};
+			buildConfigurationList = A97D457C1EF3081800DA1C1C /* Build configuration list for PBXProject "Big Arrow" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				it,
+			);
+			mainGroup = A97D45781EF3081800DA1C1C;
+			productRefGroup = A97D45821EF3081900DA1C1C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A97D45801EF3081800DA1C1C /* Big Arrow */,
+				A97D45991EF3088C00DA1C1C /* Big Arrow WatchKit */,
+				A97D45A51EF3088C00DA1C1C /* Big Arrow WatchKit Extension */,
+				A961520E1EFCF6AB0005752D /* MapsAction */,
+				A928D41B20CE8CE7009F9B7D /* Big ArrowUITests */,
+				A9E8FC7121B05EAD003D18B0 /* Big ArrowTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A928D41A20CE8CE7009F9B7D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A97B754921B06924006F32BC /* Compass.pdf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A961520D1EFCF6AB0005752D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A96152151EFCF6AB0005752D /* MainInterface.storyboard in Resources */,
+				A9A6F7EC226C992100AEBBDD /* Localizable.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A97D457F1EF3081800DA1C1C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A97D45911EF3081900DA1C1C /* LaunchScreen.storyboard in Resources */,
+				A97D458E1EF3081900DA1C1C /* Assets.xcassets in Resources */,
+				A9AF86EB226BBA5E003D2E60 /* Localizable.strings in Resources */,
+				A94277771EF59BFA00250201 /* ArrowScene.sks in Resources */,
+				A9CC56331FCDFC09001D6EC6 /* Single Ding.aiff in Resources */,
+				A91C17CC1FC426F5007AF8AD /* Triple Ding Medium.aiff in Resources */,
+				A93C560020C9CA7F0043B6DA /* FontAwesome.otf in Resources */,
+				A97D458C1EF3081900DA1C1C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A97D45981EF3088C00DA1C1C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A95C0DAE1EF32D6500835F6E /* Assets.xcassets in Resources */,
+				A97D459E1EF3088C00DA1C1C /* Interface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A97D45A41EF3088C00DA1C1C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A94277A31EF5BBCD00250201 /* Scene.xcassets in Resources */,
+				A9AF86EC226BBA5E003D2E60 /* Localizable.strings in Resources */,
+				A97D45B41EF3088C00DA1C1C /* Assets.xcassets in Resources */,
+				A97D45AE1EF3088C00DA1C1C /* ArrowScene.sks in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A9E8FC7021B05EAD003D18B0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		A97D45C11EF308CF00DA1C1C /* Update Build Number */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Update Build Number";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/bash;
+			shellScript = "bash Scripts/update_build_number.sh\n";
+		};
+		A97D45C21EF308F100DA1C1C /* Update Build Number */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Update Build Number";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/bash;
+			shellScript = "bash Scripts/update_build_number.sh\n";
+		};
+		A97D45C31EF3090000DA1C1C /* Update Build Number */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Update Build Number";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/bash;
+			shellScript = "bash Scripts/update_build_number.sh";
+		};
+		A9CA9A041EFEA047007BACA3 /* Update Build Number */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Update Build Number";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/bash;
+			shellScript = "bash Scripts/update_build_number.sh";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A928D41820CE8CE7009F9B7D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A928D41F20CE8CE7009F9B7D /* Big_ArrowUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A961520B1EFCF6AB0005752D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9DD7DD21F07A91F0072D530 /* Destination.swift in Sources */,
+				A9A6F7EB226C991A00AEBBDD /* String Extensions.swift in Sources */,
+				A96152121EFCF6AB0005752D /* ShareViewController.swift in Sources */,
+				A9DD7DD31F07AA250072D530 /* Constants.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A97D457D1EF3081800DA1C1C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A95C0DB91EF3362700835F6E /* CLLocation Extensions.swift in Sources */,
+				A95C0DB61EF330F200835F6E /* LocationMaster Errors.swift in Sources */,
+				A9865AD31EF54926008B84F4 /* Destination.swift in Sources */,
+				A95C0DB31EF32EBE00835F6E /* Constants.swift in Sources */,
+				A934EFB01FC31B7C005C51EF /* SpriteKit-Spring.swift in Sources */,
+				A90DC13B1FC08B74005F8A99 /* Constants+Extensions.swift in Sources */,
+				A9005D251FA4B35200F1571A /* Crosshair.swift in Sources */,
+				A95C0DB01EF32EB600835F6E /* LocationMaster.swift in Sources */,
+				A91C320820C9D98200DA891D /* Destination+Extensions.swift in Sources */,
+				A97D45891EF3081900DA1C1C /* ArrowController.swift in Sources */,
+				A95C0DBC1EF3374200835F6E /* Floating Extensions.swift in Sources */,
+				A93C560220C9CBB00043B6DA /* LocationTableCell.swift in Sources */,
+				A9F842771EFD6F6200C323BD /* String Extensions.swift in Sources */,
+				A94310AD1FCA395000FA2D5D /* CentralAnimationOperation.swift in Sources */,
+				A942779D1EF5B60A00250201 /* ArrowScene.swift in Sources */,
+				A96860ED1FA9D1E7007AE5F9 /* DeviceOrientation.swift in Sources */,
+				A955877F2002B29A00C9081F /* SettingsTableViewController.swift in Sources */,
+				A97D45871EF3081900DA1C1C /* MasterViewController.swift in Sources */,
+				A97D45851EF3081900DA1C1C /* AppDelegate.swift in Sources */,
+				A96FD23A2003E3A1007440D4 /* SubSettingsTableViewController.swift in Sources */,
+				A94310A71FCA37E000FA2D5D /* Operation.swift in Sources */,
+				A96244971FDEA2F10055C6B9 /* formulas.swift in Sources */,
+				A9D638211FCB4C77004FB18C /* Arrow Protocols.swift in Sources */,
+				A9E0A05924E9779900F62878 /* Storyboards.swift in Sources */,
+				A96860EF1FA9D77E007AE5F9 /* UINavigationController+Extensions.swift in Sources */,
+				A9DD7DD01F06AA960072D530 /* SessionKeys.swift in Sources */,
+				A93964EA1EF6ADD300D73B11 /* Formatters.swift in Sources */,
+				A928966A1FC61FD100B0C757 /* FuzzyDistance.swift in Sources */,
+				A9ADA80B1FC1EC3500F07826 /* NotificationHelper.swift in Sources */,
+				A9FD4EC91F9F72A6003DA78D /* FuzzyAccuracy.swift in Sources */,
+				A9187EE21EF46C530049A8AD /* NewDestinationController.swift in Sources */,
+				A94DDFF7205EA9B300113A63 /* LocationBuffer.swift in Sources */,
+				A9F842741EFD6A5A00C323BD /* DestinationMaster.swift in Sources */,
+				A9C5F9D71F23521C003E36E4 /* HelpState.swift in Sources */,
+				A9753DA31F850ACB00B673F8 /* Indication.swift in Sources */,
+				A9CC56351FCDFC27001D6EC6 /* Options.swift in Sources */,
+				A987546D1FC7706200FA12E2 /* RunningBuffer.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A97D45A21EF3088C00DA1C1C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A94310AE1FCA395000FA2D5D /* CentralAnimationOperation.swift in Sources */,
+				A9DD7DD11F06AA960072D530 /* SessionKeys.swift in Sources */,
+				A942779E1EF5B60A00250201 /* ArrowScene.swift in Sources */,
+				A96F3D621EFC634200437ED2 /* MyLocationController.swift in Sources */,
+				A928966B1FC61FD100B0C757 /* FuzzyDistance.swift in Sources */,
+				A95C0DBA1EF3362700835F6E /* CLLocation Extensions.swift in Sources */,
+				A95C0DB71EF330F200835F6E /* LocationMaster Errors.swift in Sources */,
+				A987546E1FC7706200FA12E2 /* RunningBuffer.swift in Sources */,
+				A96244981FDEA2F10055C6B9 /* formulas.swift in Sources */,
+				A93FF4931EF6E6E600993798 /* RootController.swift in Sources */,
+				A9ADA80C1FC1EC3500F07826 /* NotificationHelper.swift in Sources */,
+				A95C0DB41EF32EBE00835F6E /* Constants.swift in Sources */,
+				A91C320920C9D98200DA891D /* Destination+Extensions.swift in Sources */,
+				A93FF4951EF6E7F100993798 /* DestinationRow.swift in Sources */,
+				A9D638221FCB4C77004FB18C /* Arrow Protocols.swift in Sources */,
+				A94310A81FCA37E000FA2D5D /* Operation.swift in Sources */,
+				A90DC13C1FC08B74005F8A99 /* Constants+Extensions.swift in Sources */,
+				A934EFB11FC31B81005C51EF /* SpriteKit-Spring.swift in Sources */,
+				A9F842751EFD6A5A00C323BD /* DestinationMaster.swift in Sources */,
+				A94DDFF8205EA9B300113A63 /* LocationBuffer.swift in Sources */,
+				A993420C23AFACFD00C8FD77 /* DeviceOrientation.swift in Sources */,
+				A9F842781EFD6F6200C323BD /* String Extensions.swift in Sources */,
+				A9FD4ECA1F9F72A6003DA78D /* FuzzyAccuracy.swift in Sources */,
+				A95C0DB11EF32EB600835F6E /* LocationMaster.swift in Sources */,
+				A9865AD41EF54926008B84F4 /* Destination.swift in Sources */,
+				A9753DA41F850AD200B673F8 /* Indication.swift in Sources */,
+				A95C0DBD1EF3374200835F6E /* Floating Extensions.swift in Sources */,
+				A97D45AC1EF3088C00DA1C1C /* WatchArrowController.swift in Sources */,
+				A93964EB1EF6ADD300D73B11 /* Formatters.swift in Sources */,
+				A9FF34C7226B4FCD0023CAEC /* Options.swift in Sources */,
+				A97D45B21EF3088C00DA1C1C /* ExtensionDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A9E8FC6E21B05EAD003D18B0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9E8FC7521B05EAD003D18B0 /* Big_ArrowTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A928D42220CE8CE7009F9B7D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A97D45801EF3081800DA1C1C /* Big Arrow */;
+			targetProxy = A928D42120CE8CE7009F9B7D /* PBXContainerItemProxy */;
+		};
+		A96152181EFCF6AB0005752D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A961520E1EFCF6AB0005752D /* MapsAction */;
+			targetProxy = A96152171EFCF6AB0005752D /* PBXContainerItemProxy */;
+		};
+		A97D45A91EF3088C00DA1C1C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A97D45A51EF3088C00DA1C1C /* Big Arrow WatchKit Extension */;
+			targetProxy = A97D45A81EF3088C00DA1C1C /* PBXContainerItemProxy */;
+		};
+		A97D45B71EF3088C00DA1C1C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A97D45991EF3088C00DA1C1C /* Big Arrow WatchKit */;
+			targetProxy = A97D45B61EF3088C00DA1C1C /* PBXContainerItemProxy */;
+		};
+		A9E8FC7821B05EAD003D18B0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A97D45801EF3081800DA1C1C /* Big Arrow */;
+			targetProxy = A9E8FC7721B05EAD003D18B0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A96152131EFCF6AB0005752D /* MainInterface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A96152141EFCF6AB0005752D /* Base */,
+				A90D04E9226BB1A100EDF9C5 /* it */,
+			);
+			name = MainInterface.storyboard;
+			sourceTree = "<group>";
+		};
+		A97D458A1EF3081900DA1C1C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A97D458B1EF3081900DA1C1C /* Base */,
+				A90D04E6226BB1A000EDF9C5 /* it */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A97D458F1EF3081900DA1C1C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A97D45901EF3081900DA1C1C /* Base */,
+				A90D04E7226BB1A000EDF9C5 /* it */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		A97D459C1EF3088C00DA1C1C /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A97D459D1EF3088C00DA1C1C /* Base */,
+				A90D04E8226BB1A100EDF9C5 /* it */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+		A9AF86EE226BBA5E003D2E60 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A9AF86ED226BBA5E003D2E60 /* en */,
+				A9AF86EF226BBA5F003D2E60 /* it */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A928D42320CE8CE7009F9B7D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XXXXXXXXXX;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = "Big ArrowUITests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.marcofiletti.ios.Big-ArrowUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Big Arrow";
+			};
+			name = Debug;
+		};
+		A928D42420CE8CE7009F9B7D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XXXXXXXXXX;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = "Big ArrowUITests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.marcofiletti.ios.Big-ArrowUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Big Arrow";
+			};
+			name = Release;
+		};
+		A961521B1EFCF6AB0005752D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = MapsAction/MapsAction.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XXXXXXXXXX;
+				INFOPLIST_FILE = MapsAction/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				MARKETING_VERSION = 1.6;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.marcofiletti.ios.Big-Arrow.MapsAction";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		A961521C1EFCF6AB0005752D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = MapsAction/MapsAction.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XXXXXXXXXX;
+				INFOPLIST_FILE = MapsAction/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				MARKETING_VERSION = 1.6;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.marcofiletti.ios.Big-Arrow.MapsAction";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		A97D45931EF3081900DA1C1C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_SWIFT_FLAGS = "";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A97D45941EF3081900DA1C1C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_SWIFT_FLAGS = "";
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A97D45961EF3081900DA1C1C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "Big Arrow/Big Arrow.entitlements";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XXXXXXXXXX;
+				INFOPLIST_FILE = "Big Arrow/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MARKETING_VERSION = 1.6.3;
+				OTHER_SWIFT_FLAGS = "-DDebug -DMainApp";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.marcofiletti.ios.Big-Arrow";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		A97D45971EF3081900DA1C1C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "Big Arrow/Big Arrow.entitlements";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XXXXXXXXXX;
+				INFOPLIST_FILE = "Big Arrow/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MARKETING_VERSION = 1.6.3;
+				OTHER_SWIFT_FLAGS = "-DMainApp";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.marcofiletti.ios.Big-Arrow";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		A97D45B91EF3088C00DA1C1C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = WatchIcon;
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XXXXXXXXXX;
+				IBSC_MODULE = Big_Arrow_WatchKit_Extension;
+				INFOPLIST_FILE = "Big Arrow WatchKit/Info.plist";
+				MARKETING_VERSION = 1.6;
+				OTHER_SWIFT_FLAGS = "";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.marcofiletti.ios.Big-Arrow.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 4.3;
+			};
+			name = Debug;
+		};
+		A97D45BA1EF3088C00DA1C1C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = WatchIcon;
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XXXXXXXXXX;
+				IBSC_MODULE = Big_Arrow_WatchKit_Extension;
+				INFOPLIST_FILE = "Big Arrow WatchKit/Info.plist";
+				MARKETING_VERSION = 1.6;
+				OTHER_SWIFT_FLAGS = "";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.marcofiletti.ios.Big-Arrow.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 4.3;
+			};
+			name = Release;
+		};
+		A97D45BB1EF3088C00DA1C1C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XXXXXXXXXX;
+				INFOPLIST_FILE = "Big Arrow WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				MARKETING_VERSION = 1.6;
+				OTHER_SWIFT_FLAGS = "-DDebug -DWatchApp";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.marcofiletti.ios.Big-Arrow.watchkitapp.watchkitextension";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 4.3;
+			};
+			name = Debug;
+		};
+		A97D45BC1EF3088C00DA1C1C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XXXXXXXXXX;
+				INFOPLIST_FILE = "Big Arrow WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				MARKETING_VERSION = 1.6;
+				OTHER_SWIFT_FLAGS = "-DWatchApp";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.marcofiletti.ios.Big-Arrow.watchkitapp.watchkitextension";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 4.3;
+			};
+			name = Release;
+		};
+		A9E8FC7921B05EAD003D18B0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XXXXXXXXXX;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = "Big ArrowTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.marcofiletti.ios.Big-ArrowTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Big Arrow.app/Big Arrow";
+			};
+			name = Debug;
+		};
+		A9E8FC7A21B05EAD003D18B0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XXXXXXXXXX;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = "Big ArrowTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.marcofiletti.ios.Big-ArrowTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Big Arrow.app/Big Arrow";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A928D42520CE8CE7009F9B7D /* Build configuration list for PBXNativeTarget "Big ArrowUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A928D42320CE8CE7009F9B7D /* Debug */,
+				A928D42420CE8CE7009F9B7D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A961521A1EFCF6AB0005752D /* Build configuration list for PBXNativeTarget "MapsAction" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A961521B1EFCF6AB0005752D /* Debug */,
+				A961521C1EFCF6AB0005752D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A97D457C1EF3081800DA1C1C /* Build configuration list for PBXProject "Big Arrow" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A97D45931EF3081900DA1C1C /* Debug */,
+				A97D45941EF3081900DA1C1C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A97D45951EF3081900DA1C1C /* Build configuration list for PBXNativeTarget "Big Arrow" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A97D45961EF3081900DA1C1C /* Debug */,
+				A97D45971EF3081900DA1C1C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A97D45BD1EF3088C00DA1C1C /* Build configuration list for PBXNativeTarget "Big Arrow WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A97D45BB1EF3088C00DA1C1C /* Debug */,
+				A97D45BC1EF3088C00DA1C1C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A97D45BF1EF3088C00DA1C1C /* Build configuration list for PBXNativeTarget "Big Arrow WatchKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A97D45B91EF3088C00DA1C1C /* Debug */,
+				A97D45BA1EF3088C00DA1C1C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A9E8FC7B21B05EAD003D18B0 /* Build configuration list for PBXNativeTarget "Big ArrowTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A9E8FC7921B05EAD003D18B0 /* Debug */,
+				A9E8FC7A21B05EAD003D18B0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A97D45791EF3081800DA1C1C /* Project object */;
+}

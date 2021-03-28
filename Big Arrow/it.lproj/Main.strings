@@ -1,0 +1,186 @@
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "0PU-gu-abg"; */
+"0PU-gu-abg.text" = "Etichetta";
+
+/* Class = "UILabel"; text = "           "; ObjectID = "0XM-y9-sOw"; */
+"0XM-y9-sOw.text" = "           ";
+
+/* Class = "UILabel"; text = "           "; ObjectID = "25g-RC-4eL"; */
+"25g-RC-4eL.text" = "           ";
+
+/* Class = "UILabel"; text = " "; ObjectID = "2gw-Gz-dFL"; */
+"2gw-Gz-dFL.text" = " ";
+
+/* Class = "UILabel"; text = "Distance"; ObjectID = "3Yl-9I-y5B"; */
+"3Yl-9I-y5B.text" = "Distanza";
+
+/* Class = "UILabel"; text = "A destination is reached if within"; ObjectID = "3bh-Qf-7Rm"; */
+"3bh-Qf-7Rm.text" = "Si raggiunge una destinazione a";
+
+/* Class = "UILabel"; text = "Altitude"; ObjectID = "3t5-EM-U4j"; */
+"3t5-EM-U4j.text" = "Altitudine";
+
+/* Class = "UILabel"; text = "Detail"; ObjectID = "4FL-V1-VdR"; */
+"4FL-V1-VdR.text" = "Dettaglio";
+
+/* Class = "UISearchBar"; placeholder = "Search for destination"; ObjectID = "53K-Cz-fBl"; */
+"53K-Cz-fBl.placeholder" = "Cerca una destinazione";
+
+/* Class = "UITableViewController"; title = "Master"; ObjectID = "7bK-jq-Zjz"; */
+"7bK-jq-Zjz.title" = "Meastro";
+
+/* Class = "UILabel"; text = "Detail"; ObjectID = "A1k-5T-dCk"; */
+"A1k-5T-dCk.text" = "Dettaglio";
+
+/* Class = "UILabel"; text = "Run in background"; ObjectID = "A3T-ap-d0c"; */
+"A3T-ap-d0c.text" = "Esecuzione in secondo piano";
+
+/* Class = "UILabel"; text = "Digital compass"; ObjectID = "BEL-i8-lvF"; */
+"BEL-i8-lvF.text" = "Bussola digitale";
+
+/* Class = "UILabel"; text = "Measurements"; ObjectID = "CZ3-ra-Zud"; */
+"CZ3-ra-Zud.text" = "Misure";
+
+/* Class = "UILabel"; text = "Reduces accuracy when in background, if the destination is far."; ObjectID = "CZ6-4T-2gy"; */
+"CZ6-4T-2gy.text" = "Riduce la precisione durante l'esecuzione in secondo piano quando la destinazione è lontana.";
+
+/* Class = "UILabel"; text = "Auto stop tracking"; ObjectID = "HC2-1l-Khd"; */
+"HC2-1l-Khd.text" = "Ferma GSP in automatico";
+
+/* Class = "UILabel"; text = "Last used date"; ObjectID = "IOC-8b-4oR"; */
+"IOC-8b-4oR.text" = "Data ultimo utilizzo";
+
+/* Class = "UILabel"; text = "           "; ObjectID = "IbG-j6-jlH"; */
+"IbG-j6-jlH.text" = "           ";
+
+/* Class = "UIViewController"; title = "Detail"; ObjectID = "JEX-9P-axG"; */
+"JEX-9P-axG.title" = "Dettagli";
+
+/* Class = "UILabel"; text = "Questions? Comments?"; ObjectID = "KGi-rl-0Zo"; */
+"KGi-rl-0Zo.text" = "Domande? Commenti?";
+
+/* Class = "UILabel"; text = "Show progress bar"; ObjectID = "KYC-Ub-poZ"; */
+"KYC-Ub-poZ.text" = "Mostra barra di progresso";
+
+/* Class = "UILabel"; text = "Keeps running in background until you go back to the destination list (initial screen)."; ObjectID = "L10-oz-uhZ"; */
+"L10-oz-uhZ.text" = "La navigazione continua sempre. Per fermarla bisogna tornare alla lista delle destinazioni (schermata iniziale).";
+
+/* Class = "UILabel"; text = " "; ObjectID = "L8m-yg-6jd"; */
+"L8m-yg-6jd.text" = " ";
+
+/* Class = "UIButton"; normalTitle = "Add"; ObjectID = "Lix-Pz-NUp"; */
+"Lix-Pz-NUp.normalTitle" = "Aggiungi";
+
+/* Class = "UILabel"; text = "ETA"; ObjectID = "MOW-YU-mDz"; */
+"MOW-YU-mDz.text" = "ETA";
+
+/* Class = "UILabel"; text = "When navigating, track location in background and notify when the destination is reached."; ObjectID = "Neu-vt-GnD"; */
+"Neu-vt-GnD.text" = "Traccia la posizione in secondo piano e invia una notifica quando la destinazione viene raggiunta.";
+
+/* Class = "UIButton"; normalTitle = "Stop"; ObjectID = "NrM-tU-Dff"; */
+"NrM-tU-Dff.normalTitle" = "Ferma";
+
+/* Class = "UITableViewController"; title = "Settings"; ObjectID = "PQ4-xT-U3o"; */
+"PQ4-xT-U3o.title" = "Impostazioni";
+
+/* Class = "UILabel"; text = "-"; ObjectID = "RNM-pS-C5f"; */
+"RNM-pS-C5f.text" = "-";
+
+/* Class = "UILabel"; text = "Name"; ObjectID = "WJu-lm-blL"; */
+"WJu-lm-blL.text" = "Nome";
+
+/* Class = "UISegmentedControl"; WSk-h2-sQx.segmentTitles[0] = "Standard"; ObjectID = "WSk-h2-sQx"; */
+"WSk-h2-sQx.segmentTitles[0]" = "Mappa";
+
+/* Class = "UISegmentedControl"; WSk-h2-sQx.segmentTitles[1] = "Satellite"; ObjectID = "WSk-h2-sQx"; */
+"WSk-h2-sQx.segmentTitles[1]" = "Satellite";
+
+/* Class = "UISegmentedControl"; WSk-h2-sQx.segmentTitles[2] = "Hybrid"; ObjectID = "WSk-h2-sQx"; */
+"WSk-h2-sQx.segmentTitles[2]" = "Ibrida";
+
+/* Class = "UILabel"; text = "0"; ObjectID = "XYo-HQ-ZNG"; */
+"XYo-HQ-ZNG.text" = "0";
+
+/* Class = "UIBarButtonItem"; title = "Show in Apple Maps"; ObjectID = "Y3r-dK-Krb"; */
+"Y3r-dK-Krb.title" = "Mostra in Mappe";
+
+/* Class = "UILabel"; text = "Will be shown below arrow on watch and phone."; ObjectID = "ZGR-i0-rAM"; */
+"ZGR-i0-rAM.text" = "Viene mostrata sotto la freccia.";
+
+/* Class = "UINavigationItem"; title = "Big Arrow"; ObjectID = "Zdf-7t-Un8"; */
+"Zdf-7t-Un8.title" = "Big Arrow";
+
+/* Class = "UILabel"; text = "           "; ObjectID = "aFf-Qt-MIr"; */
+"aFf-Qt-MIr.text" = "           ";
+
+/* Class = "UILabel"; text = "Destination"; ObjectID = "axG-KY-Gu3"; */
+"axG-KY-Gu3.text" = "Destinazione";
+
+/* Class = "UILabel"; text = "Notification sound"; ObjectID = "bTF-9f-EZz"; */
+"bTF-9f-EZz.text" = "Suono notifiche";
+
+/* Class = "UILabel"; text = "Speed"; ObjectID = "bTW-Sd-DPr"; */
+"bTW-Sd-DPr.text" = "Velocità";
+
+/* Class = "UILabel"; text = "Battery saving"; ObjectID = "c0c-wm-vqT"; */
+"c0c-wm-vqT.text" = "Risparmio batteria";
+
+/* Class = "UIBarButtonItem"; title = "Settings"; ObjectID = "c8V-CT-K4d"; */
+"c8V-CT-K4d.title" = "Impostazioni";
+
+/* Class = "UILabel"; text = "Destination"; ObjectID = "cIF-6M-K9S"; */
+"cIF-6M-K9S.text" = "Destinazione";
+
+/* Class = "UILabel"; text = "Automatically stop navigation when reaching a destination."; ObjectID = "eRE-2d-qPx"; */
+"eRE-2d-qPx.text" = "Ferma automaticamente la navigazione quando si raggiunge la destinazione.";
+
+/* Class = "UIButton"; normalTitle = "Use current location"; ObjectID = "f32-rF-efg"; */
+"f32-rF-efg.normalTitle" = "Usa posizione attuale";
+
+/* Class = "UITableViewSection"; headerTitle = "Notifications"; ObjectID = "fhi-lq-uNm"; */
+"fhi-lq-uNm.headerTitle" = "Notifiche";
+
+/* Class = "UITableViewSection"; headerTitle = "Notifications"; ObjectID = "fhi-lq-uNm"; */
+"tYL-63-Omd.headerTitle" = "Dimensioni Freccia";
+
+"5HC-42-4Fz.text" = "Dimensioni freccia iPhone";
+
+"VYU-f3-bYN.text" = "Dimensioni freccia Watch";
+
+/* Class = "UILabel"; text = "Compass"; ObjectID = "gn8-xJ-5Sx"; */
+"gn8-xJ-5Sx.text" = "Bussola";
+
+/* Class = "UIButton"; normalTitle = "Show Support Page"; ObjectID = "jPD-Ch-IXc"; */
+"jPD-Ch-IXc.normalTitle" = "Mostra Pagina Supporto";
+
+/* Class = "UILabel"; text = "•   "; ObjectID = "jb2-qu-Fgc"; */
+"jb2-qu-Fgc.text" = "•   ";
+
+/* Class = "UIBarButtonItem"; title = "Sort"; ObjectID = "l1W-W8-S6P"; */
+"l1W-W8-S6P.title" = "Riordina";
+
+/* Class = "UILabel"; text = "Enable notifications"; ObjectID = "laU-u8-Y7G"; */
+"laU-u8-Y7G.text" = "Attiva notifiche";
+
+/* Class = "UILabel"; text = "       "; ObjectID = "lfN-NA-bMK"; */
+"lfN-NA-bMK.text" = "       ";
+
+/* Class = "UILabel"; text = "Accuracy"; ObjectID = "mX3-Nb-zCn"; */
+"mX3-Nb-zCn.text" = "Precisione";
+
+/* Class = "UILabel"; text = "Also notify when Estimated Time of Arrival (ETA) is less than"; ObjectID = "sVm-Kj-9PQ"; */
+"sVm-Kj-9PQ.text" = "Notifica anche quando il tempo stimato di arrivo (ETA) è meno di";
+
+/* Class = "UILabel"; text = "Magnetometer"; ObjectID = "vuv-GL-Fha"; */
+"vuv-GL-Fha.text" = "Magnetometro";
+
+/* Class = "UILabel"; text = "±"; ObjectID = "wHZ-JI-OAW"; */
+"wHZ-JI-OAW.text" = "±";
+
+"sr4-Pd-dfk.text" = "Schermo sempre acceso";
+"i0e-6o-reY.text" = "Durante la navigazione, lo schermo rimane sempre acceso (non disponibile su Watch).";
+
+"7Cf-o6-XFr.text" = "Blocco Acqua";
+
+"hJE-Ey-ypH.text" = "Usa magnetometro";
+"Z9H-9w-zFq.text" = "Attiva il magnetometro (bussola) sull'iPhone e Watch, se disponibile.";

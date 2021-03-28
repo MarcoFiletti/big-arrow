@@ -1,0 +1,111 @@
+/* 
+  Localizable.strings
+  Big Arrow
+
+  Created by Marco Filetti on 20/04/2019.
+  Copyright © 2019 Marco Filetti. All rights reserved.
+*/
+
+"compass" = "Bussola";
+
+"destination_reached" = "Destinazione raggiunta";
+"stop" = "Ferma";
+"approaching_destination" = "Destinazione vicina";
+"approaching" = "Vicino a";
+"reached_%@" = "%@ raggiunta";
+"distance" = "Distanza";
+"destination" = "Destinazione";
+
+"stopped_automatically" = "Navigazione terminata";
+
+"location_not_authorized" = "Localizzazione non autorizzata";
+"please_enable_location_services" = "Per usare l'app, per favore attiva la localizzazione per Big Arrow. I tuoi dati sono salvati solo sul dispositivo, rispettando la riservatezza. Per attivarla, apri Impostazioni > Big Arrow > Posizione sul tuo iPhone.";
+
+"navigate_to" = "Naviga verso";
+"keep_moving" = "non fermarti";
+"signal_lost" = "segnale perso";
+
+"N" = "N";
+"NE" = "NE";
+"E" = "E";
+"SE" = "SE";
+"S" = "S";
+"SW" = "SO";
+"W" = "O";
+"NW" = "NO";
+"N" = "N";
+
+"default" = "Standard";
+"no_sound" = "Nessuno";
+"single_ding" = "Un campanello";
+"triple_ding" = "Tre campanelli";
+
+"absolute" = "Assoluta";
+"relative" = "Relativa";
+
+"absolute_compass_desc" = "La bussola digitale indica la direzione attuale";
+"relative_compass_desc" = "La bussola digitale indica la direzione che devi mantenere per raggiungere la destinazione";
+
+"automatic" = "Automatiche";
+"metric_with_comma" = "Metriche (virgola per separare i decimali)";
+"metric_with_dot" = "Metriche (punto per separare i decimali)";
+"imperial" = "Imperiali";
+"measure_desc_auto" = "Automatico a seconda dell'impostazione 'Regione' del dispositivo.";
+"measure_desc_metric_comma" = "Unità metriche con decimali separati da una virgola (e.g. 1,3 km)";
+"measure_desc_metric_dot" = "Unità metriche con decimali separati da un punto (e.g. 1.3 km)";
+"measure_desc_imperial" = "Unità imperiali (e.g. 0.81 mi)";
+
+"disabled" = "spente";
+"dismiss" = "Chiudi";
+"notifications_not_authorized" = "Notifiche non autorizzate";
+"please_enable_notifications" = "Per favore attiva le notifiche in Impostazioni > Big Arrow > Notifiche.";
+
+"total_time" = "Tempo Totale";
+"start" = "Inizia";
+"stop" = "Ferma";
+
+"add" = "Aggiungi";
+"replace" = "Rimpiazza";
+"added" = "Aggiunta";
+"replaced" = "Rimpiazzata";
+"new" = "Nuova";
+
+"cancel" = "Annulla";
+"ok" = "OK";
+
+"currently_sorting" = "Attualmente ordinate";
+"change_will_be_sent" = "La modifica verrà inviata all'orologio";
+
+"rename_destination" = "Rinomina destinazione";
+"enter_new_name" = "Scegli un nuovo nome per la destinazione chiamata";
+
+"by_distance" = "per distanza";
+"by_date" = "per data";
+"manually" = "manualmente";
+"manual" = "Manualmente";
+"distance" = "Distanza";
+"date" = "Data";
+"add_new_destination" = "Aggiungi nuova destinazione";
+
+"notification_sound" = "Suono notifiche";
+"compass_type" = "Tipo bussola";
+"measurements" = "Misure";
+
+"image_help_start" = "Help_start_it";
+"image_help_direct" = "Help_direct_it";
+"image_help_maps" = "Help_maps_it";
+
+"water_lock" = "Blocco Acqua";
+
+"water_lock_once" = "Una Volta";
+"water_lock_manual" = "Manualmente";
+"water_lock_automatic" = "Automatico";
+
+"water_lock_desc_once" = "Il Blocco Acqua verrà attivato solo la prossima volta che Apple Watch verrà usato per navigare";
+"water_lock_desc_manual" = "Per attivare manualmente il Blocco Acqua, premere forte sull'orologio quando la navigazione è attiva";
+"water_lock_desc_automatic" = "Il Blocco Acqua verrà attivato ogni volta che Apple Watch verrà usato per navigare";
+
+"edit_destination" = "Modifica destinazione";
+"what_would_you_like_to_do" = "Cosa vorresti fare?";
+"reposition_destination" = "Riposiziona destinazione";
+"nothing" = "Niente";

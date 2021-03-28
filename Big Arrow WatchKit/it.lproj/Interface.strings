@@ -1,0 +1,56 @@
+
+/* Class = "WKInterfaceLabel"; text = "New"; ObjectID = "28E-b0-zuN"; */
+"28E-b0-zuN.text" = "Nuova";
+
+/* Class = "WKInterfaceLabel"; text = "-"; ObjectID = "3Ka-QA-fuR"; */
+"3Ka-QA-fuR.text" = "-";
+
+/* Class = "WKInterfaceLabel"; text = "Press firmly to force re-sync"; ObjectID = "3tf-CS-ng4"; */
+"3tf-CS-ng4.text" = "Premi a lungo per resincronizzare";
+
+/* Class = "WKInterfaceButton"; title = "Compass mode"; ObjectID = "4UL-sK-hyN"; */
+"4UL-sK-hyN.title" = "Modo bussola";
+
+/* Class = "WKInterfaceController"; title = "Locating"; ObjectID = "7qh-T0-QKh"; */
+"7qh-T0-QKh.title" = "Localizzando";
+
+/* Class = "WKInterfaceLabel"; text = "Acc.:"; ObjectID = "FPn-0H-Bm3"; */
+"FPn-0H-Bm3.text" = "Prec.:";
+
+/* Class = "WKInterfaceLabel"; text = "-"; ObjectID = "KmM-R2-e2P"; */
+"KmM-R2-e2P.text" = "-";
+
+/* Class = "WKInterfaceLabel"; text = "Altitude:"; ObjectID = "cFi-uf-c5p"; */
+"cFi-uf-c5p.text" = "Altitudine:";
+
+/* Class = "WKInterfaceLabel"; text = "Dest"; ObjectID = "efB-lK-OYg"; */
+"efB-lK-OYg.text" = "Dest";
+
+/* Class = "WKInterfaceMenuItem"; title = "Import all"; ObjectID = "ffi-KS-lC7"; */
+"ffi-KS-lC7.title" = "Importa tutto";
+
+/* Class = "WKInterfaceLabel"; text = "-"; ObjectID = "iEh-lX-lWc"; */
+"iEh-lX-lWc.text" = "-";
+
+/* Class = "WKInterfaceButton"; title = "Save current location"; ObjectID = "jdy-T4-4Hp"; */
+"jdy-T4-4Hp.title" = "Salva ubicazione";
+
+/* Class = "WKInterfaceLabel"; text = "Locating..."; ObjectID = "mKg-Z0-FjI"; */
+"mKg-Z0-FjI.text" = "Localizzando...";
+
+/* Class = "WKInterfaceController"; title = "Big Arrow"; ObjectID = "oFy-di-i2e"; */
+"oFy-di-i2e.title" = "Big Arrow";
+
+/* Class = "WKInterfaceLabel"; text = "•"; ObjectID = "qhe-C5-ce8"; */
+"qhe-C5-ce8.text" = "•";
+
+/* Class = "WKInterfaceLabel"; text = "±"; ObjectID = "sBs-xP-TFo"; */
+"sBs-xP-TFo.text" = "±";
+
+/* Class = "WKInterfaceLabel"; text = "-"; ObjectID = "wSO-jM-JlA"; */
+"wSO-jM-JlA.text" = "-";
+
+/* Class = "WKInterfaceLabel"; text = "-"; ObjectID = "y8G-9I-Aw4"; */
+"y8G-9I-Aw4.text" = "-";
+
+"83h-LF-j7G.title" = "Blocco Acqua";

@@ -1,0 +1,111 @@
+/* 
+  Localizable.strings
+  Big Arrow
+
+  Created by Marco Filetti on 20/04/2019.
+  Copyright © 2019 Marco Filetti. All rights reserved.
+*/
+
+"compass" = "Compass";
+
+"destination_reached" = "Destination reached";
+"stop" = "Stop";
+"approaching_destination" = "Approaching destination";
+"approaching" = "Approaching";
+"reached_%@" = "Reached %@";
+"distance" = "Distance";
+"destination" = "Destination";
+
+"stopped_automatically" = "Stopped automatically";
+
+"location_not_authorized" = "Location not authorized";
+"please_enable_location_services" = "To use the app correctly, please enable location services for Big Arrow. Your data is stored locally and won't be shared. To enable, go to Settings > Big Arrow > Location on your iPhone.";
+
+"navigate_to" = "Navigate to";
+"keep_moving" = "keep moving";
+"signal_lost" = "signal lost";
+
+"N" = "N";
+"NE" = "NE";
+"E" = "E";
+"SE" = "SE";
+"S" = "S";
+"SW" = "SW";
+"W" = "W";
+"NW" = "NW";
+"N" = "N";
+
+"default" = "Default";
+"no_sound" = "No sound";
+"single_ding" = "Single ding";
+"triple_ding" = "Triple ding";
+
+"absolute" = "Absolute";
+"relative" = "Relative";
+
+"absolute_compass_desc" = "Digital compass will indicate your current heading";
+"relative_compass_desc" = "Digital compass will indicate the heading you will have to bear in order to reach your destination";
+
+"automatic" = "Automatic";
+"metric_with_comma" = "Metric (comma decimal separator)";
+"metric_with_dot" = "Metric (dot decimal separator)";
+"imperial" = "Imperial";
+"measure_desc_auto" = "Automatic depending on the device's 'Region' setting";
+"measure_desc_metric_comma" = "Metric units with comma decimal separator (e.g. 1,3 km)";
+"measure_desc_metric_dot" = "Metric units with dot decimal separator (e.g. 1.3 km)";
+"measure_desc_imperial" = "Imperial units (e.g. 0.81 mi)";
+
+"disabled" = "disabled";
+"dismiss" = "Dismiss";
+"notifications_not_authorized" = "Notifications not authorized";
+"please_enable_notifications" = "Please enable notifications under Settings > Big Arrow > Notifications.";
+
+"total_time" = "Total Time";
+"start" = "Start";
+"stop" = "Stop";
+
+"add" = "Add";
+"replace" = "Replace";
+"added" = "Added";
+"replaced" = "Replaced";
+"new" = "New";
+
+"cancel" = "Cancel";
+"ok" = "OK";
+
+"currently_sorting" = "Currently sorting";
+"change_will_be_sent" = "Change will be sent to Watch";
+
+"rename_destination" = "Rename destination";
+"enter_new_name" = "Enter new name for the destination named";
+
+"by_distance" = "by distance";
+"by_date" = "by date";
+"manually" = "manually";
+"manual" = "Manual";
+"distance" = "Distance";
+"date" = "Date";
+"add_new_destination" = "Add new destination";
+
+"notification_sound" = "Notification sound";
+"compass_type" = "Compass type";
+"measurements" = "Measurements";
+
+"image_help_start" = "Help_start_en";
+"image_help_direct" = "Help_direct_en";
+"image_help_maps" = "Help_maps_en";
+
+"water_lock" = "Water Lock";
+
+"water_lock_once" = "Once";
+"water_lock_manual" = "Manual";
+"water_lock_automatic" = "Automatic";
+
+"water_lock_desc_once" = "Will activate Water Lock only the next time that the Watch is user for navigation";
+"water_lock_desc_manual" = "To manually activate Water Lock, hard press on the watch face when navigating";
+"water_lock_desc_automatic" = "Will always activate Water Lock on the Watch when navigating";
+
+"edit_destination" = "Edit destination";
+"what_would_you_like_to_do" = "What would you like to do?";
+"reposition_destination" = "Change destination position";
+"nothing" = "Nothing";

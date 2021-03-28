@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder.WatchKit.Storyboard" version="3.0" toolsVersion="17506" targetRuntime="watchKit" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="oFy-di-i2e">
+    <device id="watch40"/>
+    <dependencies>
+        <deployment identifier="watchOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17505"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBWatchKitPlugin" version="17500"/>
+    </dependencies>
+    <scenes>
+        <!--Big Arrow-->
+        <scene sceneID="2f7-1M-Vhk">
+            <objects>
+                <controller identifier="RootController" title="Big Arrow" id="oFy-di-i2e" customClass="RootController" customModule="Big_Arrow_WatchKit" customModuleProvider="target">
+                    <items>
+                        <button width="1" alignment="center" title="Save current location" id="jdy-T4-4Hp">
+                            <fontDescription key="font" type="system" pointSize="11"/>
+                            <connections>
+                                <segue destination="7qh-T0-QKh" kind="push" identifier="pushToSaveCurrentLocation" id="Upt-ge-Yza"/>
+                            </connections>
+                        </button>
+                        <button width="1" alignment="center" title="Compass mode" id="4UL-sK-hyN">
+                            <connections>
+                                <segue destination="AgC-eL-Hgc" kind="push" identifier="pushToCompassMode" id="t8F-kA-17t"/>
+                            </connections>
+                        </button>
+                        <separator alignment="center" semanticContentAttribute="spatial" id="ZL2-Qq-I9C"/>
+                        <table alignment="left" id="vMs-AR-aAO">
+                            <items>
+                                <tableRow identifier="DestinationRow" id="yY3-6r-udW" customClass="DestinationRow" customModule="Big_Arrow_WatchKit" customModuleProvider="target">
+                                    <group key="rootItem" width="1" height="46" alignment="left" layout="vertical" id="buH-vt-OkM">
+                                        <items>
+                                            <label alignment="left" text="Dest" id="efB-lK-OYg"/>
+                                            <label alignment="left" text="New" id="28E-b0-zuN">
+                                                <fontDescription key="font" style="UICTFontTextStyleCaption2"/>
+                                            </label>
+                                        </items>
+                                    </group>
+                                    <connections>
+                                        <outlet property="nameLabel" destination="efB-lK-OYg" id="cor-HS-ndg"/>
+                                        <outlet property="secondaryLabel" destination="28E-b0-zuN" id="OCQ-l3-jYL"/>
+                                        <segue destination="AgC-eL-Hgc" kind="push" identifier="pushToDestination" id="VJk-ma-hX6"/>
+                                    </connections>
+                                </tableRow>
+                            </items>
+                        </table>
+                        <label alignment="left" text="Use a long press to force re-sync" numberOfLines="2" id="3tf-CS-ng4">
+                            <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <fontDescription key="font" style="UICTFontTextStyleFootnote"/>
+                        </label>
+                    </items>
+                    <menu key="menu" id="V1l-tV-zMA">
+                        <items>
+                            <menuItem title="Import all" image="Get" id="ffi-KS-lC7">
+                                <connections>
+                                    <action selector="importAll" destination="oFy-di-i2e" id="UbY-gm-aWe"/>
+                                </connections>
+                            </menuItem>
+                        </items>
+                    </menu>
+                    <connections>
+                        <outlet property="topTable" destination="vMs-AR-aAO" id="rIa-U9-H6g"/>
+                    </connections>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="-283" y="37"/>
+        </scene>
+        <!--Locating-->
+        <scene sceneID="Laj-hV-pg5">
+            <objects>
+                <controller identifier="MyLocationController" title="Locating" hidesWhenLoading="NO" id="7qh-T0-QKh" customClass="MyLocationController" customModule="Big_Arrow_WatchKit" customModuleProvider="target">
+                    <items>
+                        <spriteKitScene height="0.80000000000000004" alignment="left" id="hSu-8R-5zv"/>
+                        <label alignment="center" text="Locating..." textAlignment="center" id="mKg-Z0-FjI"/>
+                        <label alignment="center" textAlignment="center" id="CIe-Jh-cp9"/>
+                    </items>
+                    <connections>
+                        <outlet property="bottomLabel" destination="CIe-Jh-cp9" id="Pg8-hu-Lo0"/>
+                        <outlet property="skInterface" destination="hSu-8R-5zv" id="io7-ox-sYc"/>
+                        <outlet property="topLabel" destination="mKg-Z0-FjI" id="Z63-4W-FQo"/>
+                    </connections>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="17" y="-251"/>
+        </scene>
+        <!--ArrowController-->
+        <scene sceneID="aou-V4-d1y">
+            <objects>
+                <controller identifier="ArrowController" contentMode="scaleAspectFit" id="AgC-eL-Hgc" customClass="WatchArrowController" customModule="Big_Arrow_WatchKit" customModuleProvider="target">
+                    <items>
+                        <spriteKitScene width="1" height="0.75" alignment="center" id="ARY-87-yzO">
+                            <variation key="device=watch40mm" height="0.90000000000000002"/>
+                            <variation key="device=watch44mm" height="0.875"/>
+                        </spriteKitScene>
+                        <group width="1" alignment="center" id="QBL-nm-spc" userLabel="SpeedEta">
+                            <items>
+                                <label alignment="left" text="-" textAlignment="left" id="y8G-9I-Aw4"/>
+                                <label alignment="right" text="-" textAlignment="right" id="3Ka-QA-fuR"/>
+                            </items>
+                        </group>
+                        <group width="1" alignment="center" id="xX9-Gt-ApU" userLabel="CompassDistance">
+                            <items>
+                                <label alignment="left" text="-" textAlignment="left" id="KmM-R2-e2P"/>
+                                <label alignment="right" text="-" textAlignment="right" id="wSO-jM-JlA"/>
+                            </items>
+                        </group>
+                        <group width="1" alignment="left" id="QdY-Uc-Jul">
+                            <items>
+                                <label alignment="left" text="Acc.:" textAlignment="left" minimumScaleFactor="0.80000000000000004" id="FPn-0H-Bm3"/>
+                                <label alignment="right" text="±" textAlignment="right" id="sBs-xP-TFo"/>
+                                <label alignment="right" textAlignment="right" id="1Z7-XF-Dt4"/>
+                                <label alignment="right" text="•" textAlignment="right" id="qhe-C5-ce8"/>
+                            </items>
+                        </group>
+                        <group width="1" alignment="left" id="1Xa-pV-fCG">
+                            <items>
+                                <label alignment="left" text="Altitude:" textAlignment="left" id="cFi-uf-c5p"/>
+                                <label alignment="right" text="-" textAlignment="right" id="iEh-lX-lWc"/>
+                            </items>
+                        </group>
+                    </items>
+                    <menu key="menu" id="ukU-pb-PC7">
+                        <items>
+                            <menuItem title="Water Lock" image="Droplet" id="83h-LF-j7G">
+                                <connections>
+                                    <action selector="waterLock" destination="AgC-eL-Hgc" id="xk8-oD-uJQ"/>
+                                </connections>
+                            </menuItem>
+                        </items>
+                    </menu>
+                    <connections>
+                        <outlet property="accuracyDot" destination="qhe-C5-ce8" id="wMe-0o-Ymn"/>
+                        <outlet property="accuracyLabel" destination="1Z7-XF-Dt4" id="jOL-nu-gWb"/>
+                        <outlet property="altitudeGroup" destination="1Xa-pV-fCG" id="WZz-Ep-eMB"/>
+                        <outlet property="altitudeLabel" destination="iEh-lX-lWc" id="V5e-dU-KIC"/>
+                        <outlet property="compassLabel" destination="KmM-R2-e2P" id="cJv-2N-r7m"/>
+                        <outlet property="distanceLabel" destination="wSO-jM-JlA" id="Ytc-Ou-t0u"/>
+                        <outlet property="etaLabel" destination="3Ka-QA-fuR" id="m1U-DV-Rw5"/>
+                        <outlet property="skInterface" destination="ARY-87-yzO" id="U6w-Od-uXj"/>
+                        <outlet property="speedLabel" destination="y8G-9I-Aw4" id="Fo0-Eo-2OZ"/>
+                    </connections>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="34" y="54"/>
+        </scene>
+    </scenes>
+    <inferredMetricsTieBreakers>
+        <segue reference="VJk-ma-hX6"/>
+    </inferredMetricsTieBreakers>
+    <resources>
+        <image name="Droplet" width="128" height="128"/>
+        <image name="Get" width="128" height="128"/>
+    </resources>
+</document>
